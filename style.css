@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins";
+}
+.list-item {
+	display: inline;
+	margin-right: 25px;
+	color: #8a8a8a;
+	font-size: 16px;
+}
+.navbar-container {
+	height: 120px;
+}
+nav div {
+	float: left;
+}
+.navbar-container div img {
+	width: 50%;
+	height: 50%;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.list {
+	margin-left: 20px;
+	margin-top: 60px;
+}
+.list > :first-child {
+	color: #3a3a3a;
+	font-weight: 600;
+}
+.button-group {
+	margin-top: 45px;
+	margin-left: 270px;
+}
+.nav-button {
+	background-color: #5955b3;
+	color: #f8f8fc;
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 130px;
+	border-radius: 9px;
+	font-size: 15px;
+}
+.banner-container {
+	height: 850px;
+}
+.banner-container > :first-child {
+	float: left;
+	width: 30%;
+	margin-left: 80px;
+}
+.heading-text {
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 600;
+	color: #3c2f60;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.heading-text span {
+	color: #5955b3;
+}
+.description {
+	line-height: 24px;
+	margin-bottom: 70px;
+	color: #8d8d8d;
+	font-size: 14px;
+	width: 93%;
+}
+.btn {
+	background-color: #5955b3;
+	color: #f8f8fc;
+	border: none;
+	outline: none;
+	height: 70px;
+	width: 250px;
+	border-radius: 16px;
+	font-size: 19px;
+	margin-left: 5px;
+}
+.banner-container > :last-child {
+	float: left;
+	width: 768px;
+}
+.banner-container div img {
+	width: 768px;
+	height: 630px;
+	margin-top: 30px;
+}
